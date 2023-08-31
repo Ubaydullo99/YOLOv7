@@ -5,3 +5,7 @@
 ## model predict.py for video
 
     !python segment/predict.py --weights {HOME}/yolov7/seg/runs/train-seg/custom/weights/best.pt --conf 0.25 --source ../videos
+
+
+## exporting from .pt to .torchscript
+    python export.py --weights {HOME}/yolov7/seg/runs/train-seg/custom/weights/best.pt --dynamic
