@@ -4,7 +4,7 @@
 
 ## model predict.py for video
 
-    !python segment/predict.py --weights {HOME}/yolov7/seg/runs/train-seg/custom/weights/best.pt --conf 0.25 --source ../videos
+    python segment/predict.py --weights {HOME}/yolov7/seg/runs/train-seg/custom/weights/best.pt --conf 0.25 --source ../videos
 
 
 ## exporting from - to another format
