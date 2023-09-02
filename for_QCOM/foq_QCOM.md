@@ -13,4 +13,5 @@
     # pt to onnx
     python export.py --weights ./runs/train-seg/custom/weights/best.pt --dynamic --include onnx
     
+
  
